@@ -1,0 +1,62 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+
+# Jupyter
+.ipynb_checkpoints
+*.ipynb_checkpoints
+
+# Entornos virtuales
+venv/
+env/
+ENV/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Sistema
+.DS_Store
+Thumbs.db
+
+# ==========================================
+# DATOS PERSONALES - NO SUBIR NUNCA
+# ==========================================
+*.jpg
+*.jpeg
+*.png
+*.heic
+*.heif
+*.mov
+*.mp4
+*.avi
+*.gif
+*.webp
+
+# Resultados del pipeline
+embeddings/
+clusters/
+outputs/
+chroma_db/
+analysis_logs/
+session_state/
+*.pkl
+*.npy
+*.h5
+*.pth
+*.onnx
+
+# Carpetas de datos comunes
+fotos/
+photos/
+imagenes/
+Imagenes/
+drive/
+MyDrive/
