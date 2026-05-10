@@ -1,4 +1,6 @@
-# Python
+# ============================================
+# Archivos técnicos de Python (los genera automáticamente)
+# ============================================
 __pycache__/
 *.py[cod]
 *.so
@@ -7,28 +9,29 @@ __pycache__/
 dist/
 build/
 
-# Jupyter
+# Jupyter (checkpoints automáticos que no sirven para nada)
 .ipynb_checkpoints
 *.ipynb_checkpoints
 
-# Entornos virtuales
+# Entornos virtuales (cada uno tiene el suyo, no hay que compartirlos)
 venv/
 env/
 ENV/
 
-# IDEs
+# Configuración de editores (cada uno usa el suyo)
 .vscode/
 .idea/
 *.swp
 *.swo
 
-# Sistema
-.DS_Store
-Thumbs.db
+# Archivos basura del sistema operativo
+.DS_Store      # macOS
+Thumbs.db      # Windows
 
-# ==========================================
-# DATOS PERSONALES - NO SUBIR NUNCA
-# ==========================================
+# ============================================
+# DATOS PERSONALES - NUNCA SUBIR ESTO
+# ============================================
+# Todas las imágenes y vídeos (son las fotos del usuario)
 *.jpg
 *.jpeg
 *.png
@@ -40,23 +43,26 @@ Thumbs.db
 *.gif
 *.webp
 
-# Resultados del pipeline
+# ============================================
+# RESULTADOS DEL PIPELINE - PESAN DEMASIADO
+# ============================================
+# Los embeddings y modelos generados (se pueden regenerar ejecutando el notebook)
 embeddings/
 clusters/
 outputs/
 chroma_db/
 analysis_logs/
 session_state/
-*.pkl
-*.npy
-*.h5
-*.pth
-*.onnx
+*.pkl          # Archivos pickle con embeddings
+*.npy          # Arrays de NumPy
+*.h5           # Modelos guardados
+*.pth          # Modelos de PyTorch
+*.onnx         # Modelos optimizados
 
-# Carpetas de datos comunes
+# Carpetas típicas donde la gente guarda sus fotos
 fotos/
 photos/
 imagenes/
 Imagenes/
-drive/
+drive/         # Si monta Google Drive
 MyDrive/
