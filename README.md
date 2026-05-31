@@ -1,4 +1,4 @@
-# Organización Inteligente de Fotos
+# Organización de Fotos Inteligente
 
 Sistema de clustering automático de fotografías personales.
 
